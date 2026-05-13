@@ -1,59 +1,84 @@
-# PhonePay Clone
+# Smart Bill Verification System for UPI Payments
 
-A high-fidelity clone of the PhonePay mobile application interface, built with React and Tailwind CSS. This project focuses on replicating the modern UI/UX of the popular payment app.
+A simple fintech prototype that helps users verify product totals before making digital payments.
 
-## 🚀 Features
+## Problem Statement
 
-- **Responsive Dashboard**: Replicates the home screen with primary actions (Send Money, To Bank, etc.).
-- **Interactive UI Components**: Custom-built icons and buttons using Lucide-React.
-- **Modern Styling**: Utility-first CSS with Tailwind for a clean, mobile-first design.
-- **Fast Performance**: Powered by Vite for near-instant HMR (Hot Module Replacement).
+During UPI payments, users often switch between calculator apps and payment apps to recheck:
+- Product totals
+- Discounts
+- GST calculations
+- Final payable amount
 
-## 🛠️ Tech Stack
+This process is slow and inconvenient during quick payments.
 
-- **Framework**: [React](https://reactjs.org/) (Vite)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Deployment**: [GitHub Pages](https://pages.github.com/)
+## Solution
 
-## 📦 Getting Started
+This project integrates a lightweight calculator directly into the payment flow so users can quickly verify bill amounts before paying.
 
-### Prerequisites
+## Features
 
-- Node.js (v18 or higher)
-- npm or yarn
+- Simple calculator interface
+- Fast bill verification
+- User-friendly design
+- Quick payment amount checking
+- Responsive UI
 
-### Installation
+## Prototype Link
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/logicloop404/PhonePay.git
-   cd PhonePay
-   ```
+🔗 https://logicloop404.github.io/PhonePay/
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-3. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
+- HTML
+- CSS
+- JavaScript
 
-## 🚀 Deployment
+## Future Improvements
 
-The project is configured for easy deployment to GitHub Pages.
+- Product list with auto total
+- GST & discount calculator
+- Bill scanning using camera
+- Voice input
+- Payment integration
+- Transaction history
+- AI-based bill verification
 
-1. **Build and Deploy**:
-   ```bash
-   npm run deploy
-   ```
-   *This will automatically build the project and push the `dist` folder to the `gh-pages` branch.*
+## Project Structure
 
-2. **Accessing the Site**:
-   The site will be available at: `https://logicloop404.github.io/PhonePay/`
+```bash
+PhonePay/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
+## How to Run
 
----
-Built with ❤️ by Pankaj Bhoge
+1. Clone the repository
+```bash
+git clone https://github.com/LogicLoop404/PhonePay.git
+```
+
+2. Open the project folder
+
+3. Run `index.html` in your browser
+
+## Use Case
+
+Useful for:
+- Grocery shopping
+- Local store payments
+- Restaurant bill verification
+- Student expense calculations
+- Quick UPI transactions
+
+## Author
+
+Pankaj Bhoge
+
+## Project Status
+
+Prototype / MVP (Minimum Viable Product)
