@@ -82,3 +82,9 @@ Pankaj Bhoge
 ## Project Status
 
 Prototype / MVP (Minimum Viable Product)
+
+
+## Screenshots
+<img width="627" height="912" alt="Screenshot 2026-05-14 002709" src="https://github.com/user-attachments/assets/b84b8953-5f46-49ba-9d05-0aca35d18e14" />
+
+
