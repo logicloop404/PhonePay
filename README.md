@@ -54,9 +54,6 @@ The project is configured for easy deployment to GitHub Pages.
 2. **Accessing the Site**:
    The site will be available at: `https://logicloop404.github.io/PhonePay/`
 
-## 📄 License
-
-This project is for educational purposes only.
 
 ---
-Built with ❤️ by [logicloop404](https://github.com/logicloop404)
+Built with ❤️ by Pankaj Bhoge
